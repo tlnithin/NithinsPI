@@ -9,9 +9,9 @@ namespace NithinsPI.MessageProcessor
     {
         static async Task Main(string[] args)
         {
-            var hubName = "iothub-ehub-nithinspi-216441-42fc0eed8c";
-            var iotHubConnectionString = "Endpoint=sb://ihsuprodsgres005dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=h1yRfdggbxC/S0MJePRNo0Syns9GTbQ6tYSLk0H4LDk=";
-            var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=nithinspistorage01;AccountKey=zv+WLvLPwH09LwlYxTvx6/F/Cxy4s8Yi0Hhu3Jw1oKBla88VqGSYTtVfEDkgEQ2xHveqDNSdW19xDkNrAG/jNA==;EndpointSuffix=core.windows.net";
+            var hubName = "";
+            var iotHubConnectionString = "";
+            var storageConnectionString = "";
             var storageContainerName = "message-processor-host";
             var consumerGroupName = PartitionReceiver.DefaultConsumerGroupName;
 

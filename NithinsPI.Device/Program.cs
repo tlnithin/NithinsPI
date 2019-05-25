@@ -11,7 +11,7 @@ namespace NithinsPI.Device
 {
     class Program
     {
-        private const string DeviceConnectionString = "HostName=NithinsPI.azure-devices.net;DeviceId=NithinsPI;SharedAccessKey=3/Di9ndJYFzf5JphzW8YzRM7HebOhKoUGoqmK6Xh/cY=";
+        private const string DeviceConnectionString = "";
         static async Task Main(string[] args)
         {
             Console.WriteLine("Hello From Nithin's PI!");

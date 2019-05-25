@@ -9,7 +9,7 @@ namespace NithinsPI.Manager
     {
         static async Task Main(string[] args)
         {
-            var serviceConnectionString = "HostName=NithinsPI.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=cp1PVyzq2KSUclksBQcCzsRJmNcJn+ALJx8NNQgipbk=";
+            var serviceConnectionString = "";
 
             var serviceClient = ServiceClient.CreateFromConnectionString(serviceConnectionString);
             var feedbackTask = ReceiveFeedback(serviceClient);
